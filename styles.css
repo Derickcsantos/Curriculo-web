@@ -120,13 +120,13 @@ body{
     border-radius: 12px;
 }
 .js-progress{
-    width: 70%;
+    width: 90%;
 }
 .ps-progress{
     width: 90%;
 }
 .j-progress{
-    width: 85%;
+    width: 75%;
 }
 .c-progress{
     width: 40%;
@@ -275,8 +275,56 @@ body{
         width: 60%;
     }
 }
-@media screen and (max-width:390px){
+/* ...existing code... */
+
+@media screen and (max-width: 480px) {
+    .name {
+        font-size: 1.2rem;
+    }
+    .career {
+        font-size: 1rem;
+    }
+    .main-title {
+        font-size: 1.5rem;
+    }
+    .skill-title {
+        font-size: 0.8rem;
+    }
+    .sub-title {
+        font-size: 1rem;
+    }
+    .para {
+        font-size: 1rem;
+    }
+    .tl-title {
+        font-size: 1rem;
+    }
+    .tl-title-2 {
+        font-size: 1rem;
+    }
+    .right-title::after {
+        width: 10%;
+    }
+}
+
+/* ...existing code... */
+@media screen and (max-width:450px){
     .name{
         font-size: 1.5rem;
+    }
+    .contact-info ul li a{
+        display: none;
+    }
+    .contact-info ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-info ul li i{
+        font-size: 1.4rem;
+    }
+    .main-title{
+        text-align: center;
+        
     }
 }
