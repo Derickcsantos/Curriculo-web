@@ -9,8 +9,12 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="botao-download">
+        <i class="fa-solid fa-download" onclick="baixarCurriculo()"></i>
+    </div>
     <main class="main-content">
         <section class="left-section">
             <div class="left-content">
@@ -25,28 +29,28 @@
                     <h3 class="main-title">Informações de contato</h3>
                     <ul>
                         <li>
-                            <i class="fa fa-phone"></i>
-                            <a href="https://wa.me/5511986261007">(11) 986261007</a> 
+                            <a class="logo" href="https://wa.me/5511986261007"><i class="fa-solid fa-phone-volume"></i></a> 
+                            <a class="texto" href="https://wa.me/5511986261007">(11) 986261007</a> 
                         </li>
                         <li>
-                            <i class="fa fa-fax"></i>
+                            <a class="logo" href="mailto:derickcampossantos1@gmail.com"><i class="fa-solid fa-envelope"></i></a> 
                             <a class="email-ctt" href="mailto:derickcampossantos1@gmail.com">derickcampossantos1@gmail.com</a>
                         </li>
                         <li>
-                            <i class="fa fa-globe"></i>
-                            <a href=" https://derickcs.vercel.app">https://derickcs.vercel.app</a>
+                            <a class="logo" href=" https://derickcs.vercel.app"><i class="fa fa-globe"></i></a>
+                            <a class="texto" href=" https://derickcs.vercel.app">https://derickcs.vercel.app</a>
                         </li>
                         <li>
-                            <i class="fa fa-linkedin"></i>
-                            <a href="https://linkedin.com/in/derick-campos-santos">derick-campos-santos</a>
+                            <a class="logo" href="https://linkedin.com/in/derick-campos-santos"><i class="fa-brands fa-linkedin"></i></a>
+                            <a class="texto" href="https://linkedin.com/in/derick-campos-santos">derick-campos-santos</a>
                         </li>
                         <li>
-                            <i class="fa fa-github"></i>
-                            <a href="https://github.com/derickcsantos">derickcsantos</a>
+                            <a class="logo" href="https://github.com/derickcsantos"><i class="fa-brands fa-square-github"></i></a>
+                            <a class="texto" href="https://github.com/derickcsantos">derickcsantos</a>
                         </li>
                         <li>
-                            <i class="fa fa-map-marker"></i>
-                            <a href="Zona norte - São Paulo - Brasil">Zona norte - São Paulo - Brasil</a>
+                            <a class="logo" href="https://pt.wikipedia.org/wiki/Zona_Norte_de_S%C3%A3o_Paulo"><i class="fa-solid fa-map-location"></i></a>
+                            <a class="texto" href="https://pt.wikipedia.org/wiki/Zona_Norte_de_S%C3%A3o_Paulo">Zona norte - São Paulo - Brasil</a>
                         </li>
                     </ul>
                 </div>
@@ -315,5 +319,9 @@
             </div>
         </section>
     </main>
+    <footer>
+        <p>&copy; Desenvolvido por <a href="https://www.linkedin.com/in/derick-campos-santos/">Dérick Campos Santos</a></p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
