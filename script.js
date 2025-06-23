@@ -1,6 +1,6 @@
 function baixarCurriculo() {
     const link = document.createElement('a');
-    link.href = 'Profile (10).pdf'; 
+    link.href = 'Currículo - Dérick Campos Santos.pdf'; 
     link.download = 'Curriculo.pdf';  
     link.click();  
 }
